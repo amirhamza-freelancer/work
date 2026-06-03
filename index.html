@@ -64,7 +64,6 @@
         }
         .hero-img-anim {
             opacity: 0;
-            /* Runs only once on load, then stays static */
             animation: heroZoomIn 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         }
 
@@ -170,9 +169,9 @@
                 <a href="#home" class="hover:text-primary transition-colors">Home</a>
                 <a href="#about" class="hover:text-primary transition-colors">About</a>
                 <a href="#services" class="hover:text-primary transition-colors">Services</a>
-                <a href="#reviews" class="hover:text-primary transition-colors">Reviews</a>
+                <a href="#testimonials" class="hover:text-primary transition-colors">Testimonials</a>
                 <a href="#contact" class="hover:text-primary transition-colors">Contact</a>
-                <!-- Order Now button with highly attractive animation -->
+                <!-- Order Now button -->
                 <a href="https://www.fiverr.com/s/pdEbP9o" target="_blank" class="bg-gradient-btn animated-pulse-btn btn-shimmer px-6 py-2 rounded-full text-white font-semibold flex items-center gap-2">
                     Order Now <i class="fa-solid fa-arrow-right"></i>
                 </a>
@@ -188,6 +187,7 @@
             <a href="#home" class="block hover:text-primary">Home</a>
             <a href="#about" class="block hover:text-primary">About</a>
             <a href="#services" class="block hover:text-primary">Services</a>
+            <a href="#testimonials" class="block hover:text-primary">Testimonials</a>
             <a href="#contact" class="block hover:text-primary">Contact</a>
             <a href="https://www.fiverr.com/s/pdEbP9o" target="_blank" class="block text-primary font-bold">Order Now</a>
         </div>
@@ -197,7 +197,7 @@
     <section id="home" class="min-h-screen flex items-center justify-center pt-28 pb-12 px-6 relative">
         <div class="container mx-auto grid md:grid-cols-2 gap-12 lg:gap-8 items-center">
             
-            <!-- Hero Text (Left Side) - With Load Animation -->
+            <!-- Hero Text -->
             <div class="space-y-6 md:pr-4">
                 <div class="load-fade-up inline-block px-4 py-1.5 rounded-full border border-white/10 bg-white/5 text-primary font-medium text-sm mb-1" style="animation-delay: 0.2s;">
                      Hi, I'm Amir Hamza
@@ -231,7 +231,7 @@
                 </div>
             </div>
             
-            <!-- Hero Image Section - One Time Animation on Load -->
+            <!-- Hero Image -->
             <div class="flex justify-center md:justify-end hero-image-container md:-mt-16 lg:-mt-20">
                 <div class="hero-img-anim user-profile-frame w-[280px] sm:w-[320px] md:w-[380px] lg:w-[460px] aspect-square" style="animation-delay: 0.5s;">
                     <img src="https://i.postimg.cc/jdPNcm4G/Untitled-design-(1).png" alt="Amir Hamza Hero Image" class="w-full h-full object-cover rounded-[1.7rem]">
@@ -370,18 +370,18 @@
         </div>
     </section>
 
-    <!-- Client Reviews Section -->
-    <section id="reviews" class="py-24 px-6 bg-white/5 border-y border-white/5">
+    <!-- Client Testimonials Section -->
+    <section id="testimonials" class="py-24 px-6 bg-white/5 border-y border-white/5">
         <div class="container mx-auto text-center max-w-2xl mb-16 reveal">
-            <h2 class="text-3xl md:text-5xl font-bold font-sans mb-4">Client <span class="text-gradient">Reviews</span></h2>
-            <p class="text-gray-400">Honest feedback from people and brands I've helped grow.</p>
+            <h2 class="text-3xl md:text-5xl font-bold font-sans mb-4">Client <span class="text-gradient">Success Stories</span></h2>
+            <p class="text-gray-400">The impact of my work through the eyes of my clients.</p>
         </div>
 
         <div class="container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="glass-card p-6 reveal">
                 <p class="text-gray-300 text-sm mb-6">Amir Hamza handled our social media marketing professionally. The strategy and content quality helped improve our engagement and audience reach significantly. Communication was smooth throughout the project.</p>
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-lg border border-cyan-500/30">D</div>
+                    <img src="https://i.postimg.cc/Nfc4x83z/Green-and-White-Modern-Digital-Marketing-Agency-Professional-Instagram-Post-(3).png" alt="David Chen" class="w-10 h-10 rounded-full object-cover border border-white/20">
                     <div><h4 class="font-bold text-white text-sm">David Chen</h4></div>
                 </div>
             </div>
@@ -397,7 +397,7 @@
             <div class="glass-card p-6 reveal" style="transition-delay: 0.2s;">
                 <p class="text-gray-300 text-sm mb-6">Great experience working together. The video editing and creative work were clean, modern, and aligned with our business goals.</p>
                 <div class="flex items-center gap-3">
-                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Mark Thompson" class="w-10 h-10 rounded-full object-cover border border-white/20">
+                    <img src="https://i.postimg.cc/Y0kV1JBS/Green-and-White-Modern-Digital-Marketing-Agency-Professional-Instagram-Post.png" alt="Mark Thompson" class="w-10 h-10 rounded-full object-cover border border-white/20">
                     <div><h4 class="font-bold text-white text-sm">Mark Thompson</h4></div>
                 </div>
             </div>
@@ -405,7 +405,7 @@
             <div class="glass-card p-6 reveal md:col-span-2 lg:col-span-3 border border-primary/30 bg-primary/5">
                 <p class="text-gray-200 text-base md:text-lg mb-6 font-normal">Working with Amir Hamza was a smooth and professional experience. The marketing strategy was well-planned, communication was consistent, and the overall execution exceeded expectations. We saw clear improvements in audience engagement, brand visibility, and social media performance within a short period of time. Highly recommended for anyone looking to grow their online presence effectively.</p>
                 <div class="flex items-center gap-3">
-                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80" alt="James Wilson" class="w-12 h-12 rounded-full object-cover border-2 border-primary/50">
+                    <img src="https://i.postimg.cc/bNfmK0Kb/63cb23a0-fc06-4183-b831-7333db676c67.png" alt="James Wilson" class="w-12 h-12 rounded-full object-cover border-2 border-primary/50">
                     <div><h4 class="font-bold text-white">James Wilson</h4></div>
                 </div>
             </div>
@@ -421,7 +421,7 @@
             <div class="glass-card p-6 reveal" style="transition-delay: 0.1s;">
                 <p class="text-gray-300 text-sm mb-6">Professional, creative, and detail-oriented. The content quality and branding direction were impressive, and the collaboration was smooth.</p>
                 <div class="flex items-center gap-3">
-                    <img src="https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&w=100&q=80" alt="Robert Foster" class="w-10 h-10 rounded-full object-cover border border-white/20">
+                    <img src="https://i.postimg.cc/VLq7yZ90/Green-and-White-Modern-Digital-Marketing-Agency-Professional-Instagram-Post-(2).png" alt="Robert Foster" class="w-10 h-10 rounded-full object-cover border border-white/20">
                     <div><h4 class="font-bold text-white text-sm">Robert Foster</h4></div>
                 </div>
             </div>
@@ -429,7 +429,7 @@
             <div class="glass-card p-6 reveal" style="transition-delay: 0.2s;">
                 <p class="text-gray-300 text-sm mb-6">The content strategy was well planned and matched our brand perfectly. Everything was delivered on time, and the overall collaboration experience was very professional.</p>
                 <div class="flex items-center gap-3">
-                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="Sarah Jenkins" class="w-10 h-10 rounded-full object-cover border border-white/20">
+                    <img src="https://i.postimg.cc/fW6FQ06C/Green-and-White-Modern-Digital-Marketing-Agency-Professional-Instagram-Post-(1).png" alt="Sarah Jenkins" class="w-10 h-10 rounded-full object-cover border border-white/20">
                     <div><h4 class="font-bold text-white text-sm">Sarah Jenkins</h4></div>
                 </div>
             </div>
@@ -455,103 +455,98 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="border-t border-white/10 bg-[#02040a] pt-16 pb-8 px-6">
+    <!-- NEW Updated Footer Section (Matches exactly with your provided image) -->
+    <footer class="border-t border-white/10 bg-[#050814] pt-20 pb-10 px-6">
         <div class="container mx-auto grid md:grid-cols-3 gap-12 mb-12">
-            <div class="space-y-4 reveal">
-                <a href="#" class="text-2xl font-bold font-sans tracking-wide block">
+            
+            <!-- Column 1: Brand & Socials -->
+            <div class="space-y-6 reveal">
+                <a href="#" class="text-3xl font-bold font-sans tracking-wide block">
                     Amir <span class="text-gradient">Hamza</span>
                 </a>
-                <p class="text-gray-400 text-sm">Digital Marketing Expert & Business Growth Strategist. Helping businesses scale through result-driven digital solutions.</p>
+                <p class="text-gray-300 text-[1.05rem] leading-relaxed pr-4">
+                    Digital Marketing Expert & Business Growth Strategist. Helping businesses scale through result-driven digital solutions.
+                </p>
                 <div class="flex gap-4 pt-2">
-                    <a href="https://www.facebook.com/hm.amir.hamza.912715" target="_blank" class="text-gray-400 hover:text-[#1877F2] transition-colors text-xl"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/freelancer.2422/" target="_blank" class="text-gray-400 hover:text-[#E1306C] transition-colors text-xl"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://linkedin.com/in/amirhamzafreelancer" target="_blank" class="text-gray-400 hover:text-[#0077B5] transition-colors text-xl"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <!-- Professional Colored Social Icons with smooth Hover Animation -->
+                    <a href="https://www.facebook.com/hm.amir.hamza.912715" target="_blank" class="w-10 h-10 rounded-full flex items-center justify-center text-lg social-btn fb-btn transition-transform hover:-translate-y-2">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/freelancer.2422/" target="_blank" class="w-10 h-10 rounded-full flex items-center justify-center text-lg social-btn ig-btn transition-transform hover:-translate-y-2">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/amirhamzafreelancer" target="_blank" class="w-10 h-10 rounded-full flex items-center justify-center text-lg social-btn in-btn transition-transform hover:-translate-y-2">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
                 </div>
             </div>
 
-            <div class="reveal" style="transition-delay: 0.1s;">
-                <h4 class="text-white font-bold mb-4">Quick Links</h4>
-                <ul class="space-y-3 text-sm text-gray-400">
-                    <li><a href="#home" class="hover:text-primary transition-colors inline-block hover:translate-x-1 duration-300">Home</a></li>
-                    <li><a href="#about" class="hover:text-primary transition-colors inline-block hover:translate-x-1 duration-300">About</a></li>
-                    <li><a href="#services" class="hover:text-primary transition-colors inline-block hover:translate-x-1 duration-300">Services</a></li>
-                    <li><a href="#reviews" class="hover:text-primary transition-colors inline-block hover:translate-x-1 duration-300">Reviews</a></li>
-                    <li><a href="#contact" class="hover:text-primary transition-colors inline-block hover:translate-x-1 duration-300">Contact</a></li>
-                </ul>
+            <!-- Column 2: Quick Links -->
+            <div class="space-y-6 reveal">
+                <h4 class="text-xl text-white font-bold font-sans mb-4">Quick Links</h4>
+                <div class="flex flex-col space-y-3 text-[1.05rem] text-gray-300">
+                    <a href="#home" class="hover:text-primary transition-all hover:translate-x-2 inline-block w-max">Home</a>
+                    <a href="#about" class="hover:text-primary transition-all hover:translate-x-2 inline-block w-max">About</a>
+                    <a href="#services" class="hover:text-primary transition-all hover:translate-x-2 inline-block w-max">Services</a>
+                    <a href="#testimonials" class="hover:text-primary transition-all hover:translate-x-2 inline-block w-max">Reviews</a>
+                    <a href="#contact" class="hover:text-primary transition-all hover:translate-x-2 inline-block w-max">Contact</a>
+                </div>
             </div>
 
-            <div class="reveal" style="transition-delay: 0.2s;">
-                <h4 class="text-white font-bold mb-4">Contact Info</h4>
-                <ul class="space-y-4 text-sm text-gray-400">
-                    <li class="flex items-start gap-3">
-                        <i class="fa-solid fa-envelope mt-1 text-primary"></i>
-                        <a href="mailto:digitalamirhamza@gmail.com" class="hover:text-white transition-colors">digitalamirhamza@gmail.com</a>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <i class="fa-brands fa-whatsapp mt-1 text-[#25D366]"></i>
-                        <a href="https://wa.me/8801402372259" target="_blank" class="hover:text-white transition-colors">+880 1402372259</a>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <i class="fa-solid fa-location-dot mt-1 text-primary"></i>
+            <!-- Column 3: Contact Info -->
+            <div class="space-y-6 reveal">
+                <h4 class="text-xl text-white font-bold font-sans mb-4">Contact Info</h4>
+                <div class="flex flex-col space-y-4 text-[1.05rem] text-gray-300">
+                    <a href="mailto:digitalamirhamza@gmail.com" class="flex items-center gap-3 hover:text-primary transition-colors group">
+                        <i class="fa-solid fa-envelope text-primary text-lg group-hover:scale-110 transition-transform"></i>
+                        <span>digitalamirhamza@gmail.com</span>
+                    </a>
+                    <a href="https://wa.me/8801402372259" target="_blank" class="flex items-center gap-3 hover:text-[#25D366] transition-colors group">
+                        <i class="fa-brands fa-whatsapp text-[#25D366] text-lg group-hover:scale-110 transition-transform"></i>
+                        <span>+880 1402372259</span>
+                    </a>
+                    <div class="flex items-center gap-3 group">
+                        <i class="fa-solid fa-location-dot text-primary text-lg group-hover:scale-110 transition-transform cursor-default"></i>
                         <span>Dhaka, Bangladesh</span>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <div class="text-center text-sm text-gray-500 pt-8 border-t border-white/10 reveal">
-            <p>&copy; 2026 Amir Hamza. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- Interactive Scripts -->
+    <!-- Scripts for Functionality -->
     <script>
-        // Mobile Menu Toggle Functionality
-        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
-
-        mobileMenuBtn.addEventListener('click', () => {
+        menuBtn.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
             mobileMenu.classList.toggle('flex');
         });
 
-        // Close mobile menu when clicking a link
-        document.querySelectorAll('#mobile-menu a').forEach(link => {
+        // Close mobile menu on click
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.classList.add('hidden');
                 mobileMenu.classList.remove('flex');
             });
         });
 
-        // Navbar blur and shadow on scroll
-        window.addEventListener('scroll', () => {
-            const navbar = document.getElementById('navbar');
-            if (window.scrollY > 50) {
-                navbar.style.background = 'rgba(5, 8, 20, 0.9)';
-                navbar.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.1)';
-            } else {
-                navbar.style.background = 'rgba(5, 8, 20, 0.7)';
-                navbar.style.boxShadow = 'none';
-            }
-        });
-
-        // Scroll Reveal Animation Logic
-        function reveal() {
-            var reveals = document.querySelectorAll(".reveal, .reveal-left, .reveal-right");
-            for (var i = 0; i < reveals.length; i++) {
-                var windowHeight = window.innerHeight;
-                var elementTop = reveals[i].getBoundingClientRect().top;
-                var elementVisible = 100;
-                
-                if (elementTop < windowHeight - elementVisible) {
-                    reveals[i].classList.add("active");
+        // Scroll Reveal Logic
+        const reveals = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+        function checkReveal() {
+            const triggerBottom = window.innerHeight * 0.85;
+            reveals.forEach(reveal => {
+                const revealTop = reveal.getBoundingClientRect().top;
+                if (revealTop < triggerBottom) {
+                    reveal.classList.add('active');
                 }
-            }
+            });
         }
-        
-        window.addEventListener("scroll", reveal);
-        reveal(); // Trigger once on load to catch elements already in viewport
+        window.addEventListener('scroll', checkReveal);
+        window.addEventListener('load', checkReveal);
     </script>
 </body>
 </html>
